@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenesun</title>
+    <title>株式会社ゼネサン金型</title>
 
     <!-- Favicons -->
     <link href="img/logo.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,206 +22,150 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
+            <!-- Logo and Brand Name -->
             <a class="navbar-brand" href="#">
-                <h1><img src="/img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> Zenesun Group</h1>
+                <img src="/img/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                <span class="brand-text">株式会社ゼネサン金型</span>
             </a>
+            
+            <!-- Navbar Toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
+            <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">業務内容</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">取扱製品</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">会社紹介</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">お問合せ</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <!-- Slideshow -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <!-- Indicators -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+
+        <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/DSC_0208.JPG" class="d-block w-100" alt="slide 1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Welcome to Zenesun Group</h2>
-                    <h5>Some representative placeholder content for the first slide.</h5>
-                    <a href="#about" class="btn btn-primary">Read More</a>
-                </div>
+                <img src="/img/slide1.JPG" class="d-block w-100" alt="Slide 1">
+                <!--<div class="carousel-caption">
+                    <h2></h2>
+                    <h5></h5>
+                </div> -->
             </div>
             <div class="carousel-item">
-                <img src="/img/DSC_0066.JPG" class="d-block w-100" alt="slide 2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>First slide label</h2>
-                    <h5>Some representative placeholder content for the first slide.</h5>
-                    <a href="#services" class="btn btn-primary">Services</a>
-                </div>
+                <img src="/img/slide2.JPG" class="d-block w-100" alt="Slide 2">
+                <!--<div class="carousel-caption">
+                    <h2></h2>
+                    <h5></h5>
+                </div>-->
             </div>
             <div class="carousel-item">
-                <img src="/img/slide3.jpg" class="d-block w-100" alt="slide 3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>First slide label</h2>
-                    <h5>Some representative placeholder content for the first slide.</h5>
-                    <a href="#products" class="btn btn-primary">Products</a>
-                </div>
+                <img src="/img/slide3.jpg" class="d-block w-100" alt="Slide 3">
+                <!--<div class="carousel-caption">
+                    <h2></h2>
+                    <h5></h5>
+                </div>-->
             </div>
         </div>
+
+        <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        
+    <!-- News Section -->
+    <section id="news" class="news-section">
         <div class="container section-title">
-            <h2>About Us</h2>
+            <h2>お知らせ</h2>
         </div>
         <br>
         <div class="container">
-
             <div class="row gy-4">
-
-                <div class="col-lg-6 content">
-                    <p>
-                    ZENESUN CO, LTD is a dynamic company established in February 2016, located in Fuji City, Shizuoka Prefecture, Japan. With a capital of 5 million yen, we specialize in the design, manufacturing, processing, sales, and import/export of a wide range of molds and plastic products. Our expertise extends to various metal materials, jigs and tools, as well as automatic machines.
-                    </p>
-                    <p>
-                    Our President and CEO, Shu You, leads our dedicated team with a vision to innovate and excel in the manufacturing sector.
-                    </p>
-                    <p>
-                    Our commitment to quality and customer satisfaction drives us to continuously improve our processes and expand our offerings in the competitive market.
-                    </p>
-                </div>
-
-                <div class="col-lg-6">
-                    <p>At ZENESUN CO., LTD, we pride ourselves on delivering high-quality products and services that meet the diverse needs of our clients. Our core business activities include:</p>
-                    <ul>
-                    <li><i class="bi bi-check2-circle"></i> <p>Molds: Comprehensive design and manufacturing services for various molds.</p></li>
-                    <li><i class="bi bi-check2-circle"></i> <p>Plastic Products: Production and sales of an array of plastic items tailored to client specifications.</p></li>
-                    <li><i class="bi bi-check2-circle"></i> <p>Metal Materials and Tools: Design and manufacturing of metal materials, jigs, tools, and automatic machines for various industrial applications.</p></li>
-                    </ul>
-                </div>
-
+                <ul>
+                    <p>2024年4月 - 会社分割による事業継承に関するご案内</p>
+                    <p>2023年6月 - 本社工場外壁張り替え実施</p>
+                    <p>2022年7月 - 本社登記住所変更：静岡市清水区から富士市</p>
+                    <p>2022年7月 - 業務統合：株式会社技研を富士工場へ移転</p>
+                    <p>2021年11月 - 株式会社技研買収：株式100％を取得により完全子会社化</p>
+                    <p>2021年10月 - 富士工場に新規10ton天井クレーン設置</p>
+                    <p>2021年1月 - 会社事務所・工場移転のご案内</p>
+                </ul>
             </div>
-
         </div>
-
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services-section">
 
         <div class="container section-title">
-          <h2>Services</h2>
+          <h2>業務内容</h2>
         </div>
         <br>
-        <div class="container text-center">
-  
-          <div class="row gy-4">
-  
+        <div class="row gy-4 justify-content-center">
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/exymduqj.json"
-                    trigger="hover"
-                    state="hover-line"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Mold Design / Manufacturing</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/1.png" class="services-logo" alt="Zenesun Logo">
+                    <h3>金型設計/製作</h3>
+                </div>
             </div>
-  
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/mfblariy.json"
-                    trigger="hover"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Mold Parts Processing</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/2.jpg" class="services-logo" alt="Zenesun Logo">
+                    <h3>金型部品加工</h3>
+                </div>
             </div>
-  
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/fcyboqbm.json"
-                    trigger="hover"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Flow Analysis</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/3.png" class="services-logo" alt="Zenesun Logo">
+                    <h3>流動解析</h3>
+                </div>
             </div>
-  
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/fikcyfpp.json"
-                    trigger="hover"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Product Design</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/4.png" class="services-logo" alt="Zenesun Logo">
+                    <h3>製品設計</h3>
+                </div>
             </div>
-  
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/ncmnezgk.json"
-                    trigger="hover"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Jigs and Tools / Testing Fixtures</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/5.png" class="services-logo" alt="Zenesun Logo">
+                    <h3>各種治工具/検具</h3>
+                </div>
             </div>
-  
             <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <script src="https://cdn.lordicon.com/lordicon.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/fwkrbvja.json"
-                    trigger="hover"
-                    style="width:100px;height:100px">
-                </lord-icon>
-                <h3>Mold Repair / Maintenance</h3>
-                <a href="#" class="btn btn-primary">See more</a>
-              </div>
+                <div class="services-card text-center">
+                    <img src="/img/services-img/6.jpg" class="services-logo" alt="Zenesun Logo">
+                    <h3>金型修理/メンテ</h3>
+                </div>
             </div>
-
-          </div>
         </div>
-      </section><!-- /Services Section -->
+    </section><!-- /Services Section -->
 
     <!-- Products Section -->
     <section id="products" class="products-section">
         <div class="container">
-            <h2>Our Products</h2>
+            <h2>取扱製品 </h2>
 
             <!-- Filter Buttons -->
             <div class="container text-center mb-4">
@@ -230,19 +174,19 @@
                         <button class="btn btn-primary filter-btn w-100" data-filter="all">All</button>
                     </div>
                     <div class="col-6 col-md-2 mb-2">
-                        <button class="btn btn-primary filter-btn w-100" data-filter="auto">Auto Parts</button>
+                        <button class="btn btn-primary filter-btn w-100" data-filter="auto">自動車部品</button>
                     </div>
                     <div class="col-6 col-md-2 mb-2">
-                        <button class="btn btn-primary filter-btn w-100" data-filter="air">Air Conditioner Parts</button>
+                        <button class="btn btn-primary filter-btn w-100" data-filter="air">エアコン部品</button>
                     </div>
                     <div class="col-6 col-md-2 mb-2">
-                        <button class="btn btn-primary filter-btn w-100" data-filter="refrigerator">Refrigerator Parts</button>
+                        <button class="btn btn-primary filter-btn w-100" data-filter="refrigerator">冷蔵庫部品</button>
                     </div>
                     <div class="col-6 col-md-2 mb-2">
-                        <button class="btn btn-primary filter-btn w-100" data-filter="industrial">Industrial Parts</button>
+                        <button class="btn btn-primary filter-btn w-100" data-filter="industrial">産業機器用部品</button>
                     </div>
                     <div class="col-6 col-md-2 mb-2">
-                        <button class="btn btn-primary filter-btn w-100" data-filter="3d">3D Printed Parts</button>
+                        <button class="btn btn-primary filter-btn w-100" data-filter="3d">3Dプリント部品</button>
                     </div>
                 </div>
             </div>
@@ -612,12 +556,124 @@
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        
+        <div class="container section-title">
+            <h2>会社紹介</h2>
+        </div>
+        <br>
+        <div class="container">
+            
+            <div class="row g-4">
+                <!-- Zenesun Co Card -->
+                <div class="col-12 col-lg-6">
+                    <div class="card h-100 shadow-sm company-card">
+                        <div class="card-body">
+                            <h3 class="card-title h4 mb-4 text-primary">株式会社 ゼネサン</h3>
+                            
+                            <div class="mb-3">
+                                <span class="text-label">設立年月日:</span>
+                                <p class="mb-0">2010年2月</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">所 在 地:</span>
+                                <p class="mb-0">〒416-0046 静岡県富士市蓼原町1177</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">連 絡 先:</span>
+                                <p class="mb-0">
+                                    TEL: 054-567-7977<br>
+                                    FAX: 054-567-8012<br>
+                                    Email: <a href="mailto:sale01@zenesun.com">sale01@zenesun.com</a><br>
+                                    Website: <a href="https://www.zenesun.com">www.zenesun.com</a>
+                                </p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">代表取締役 / 社 長:</span>
+                                <p class="mb-0">朱 磊（シュ ルイ</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">資 本 金:</span>
+                                <p class="mb-0">500万円</p>
+                            </div>
+    
+                            <div>
+                                <span class="text-label">事業内容:</span>
+                                <ol class="ps-3 mt-2">
+                                    <li class="mb-2">各種金型の設計・製造・加工・販売および輸出入</li>
+                                    <li class="mb-2">各種プラスチック成形の製造・販売および輸出入</li>
+                                    <li class="mb-2">各種金属材料、加工品・製缶物品の設計・製造・販売および輸出入</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Giken Co Card -->
+                <div class="col-12 col-lg-6">
+                    <div class="card h-100 shadow-sm company-card">
+                        <div class="card-body">
+                            <h3 class="card-title h4 mb-4 text-primary">株式会社 技研</h3>
+                            
+                            <div class="mb-3">
+                                <span class="text-label">設立年月日:</span>
+                                <p class="mb-0">1973年5月</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">所 在 地:</span>
+                                <p class="mb-0">〒416-0046 静岡県富士市蓼原町1177</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">連 絡 先:</span>
+                                <p class="mb-0">
+                                    TEL: 054-567-7977<br>
+                                    FAX: 054-567-8012<br>
+                                    Email: <a href="mailto:sale02@zenesun.com">sale02@zenesun.com</a><br>
+                                    Website: <a href="https://www.zenesun.com">www.zenesun.com</a>
+                                </p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">代表取締役 / 社 長:</span>
+                                <p class="mb-0">朱 磊（シュ ルイ）</p>
+                            </div>
+    
+                            <div class="mb-3">
+                                <span class="text-label">資 本 金:</span>
+                                <p class="mb-0">500万円</p>
+                            </div>
+    
+                            <div>
+                                <span class="text-label">事業内容:</span>
+                                <ol class="ps-3 mt-2">
+                                    <li class="mb-2">各種金型の設計・製造・加工・販売および輸出入</li>
+                                    <li class="mb-2">各種プラスチック成形の製造・販売および輸出入</li>
+                                    <li class="mb-2">各種金属材料、加工品・製缶物品の設計・製造・販売および輸出入</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
     
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
 
         <div class="container section-title">
-            <h2>Contact</h2>
+            <h2>お問合せ</h2>
         </div>
     
         <div class="container">
@@ -645,7 +701,7 @@
                         style="width:60px;height:100px">
                     </lord-icon>
                     <h3>Call Us</h3>
-                    <p>054-567-7977 <br>Fax: 054-567-8012</p>
+                    <p>Tel: 054-567-7977 <br>Fax: 054-567-8012</p>
                 </div>
 
                 <div class="col-lg-4">
