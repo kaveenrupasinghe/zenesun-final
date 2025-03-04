@@ -187,17 +187,22 @@ p { font-size: 1.1rem; color: #212121; }
     background-color: #f0f8ff;
 }
 
+.services-section {
+    background-color: #e6f2ff;
+}
+
+.products-section {
+    background-color: #f0f8ff;
+}
+
 .about-section {
     background-color: #e6f2ff;
 }
 
-.services-section {
+.contact-section {
     background-color: #f0f8ff;
 }
 
-.products-section {
-    background-color: #e6f2ff;
-}
 
 /* Buttons */
 .btn-primary {
